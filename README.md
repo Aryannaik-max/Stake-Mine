@@ -45,3 +45,17 @@ npm install
 ```
 npm run dev
 ```
+---
+
+## 🐞 Known Issues
+
+- 🚫 **Withdraw Button Logic Bug**:  
+  The `Withdraw` button currently shares the same logic as the `Start` button, which causes:
+  - The game state to reset (even if the user just wants to withdraw).
+  - The staked amount to be decremented immediately upon clicking withdraw.
+  
+  🛠 **Planned Fix**: Separate the withdraw logic from game initialization. Ensure that withdrawing:
+  - Does **not reset** the UI state.
+  - Returns the correct staked amount without affecting gameplay stats.
+
+---
