@@ -36,5 +36,12 @@
 ```bash
 git clone https://github.com/Aryannaik-max/Stake-Mine.git
 cd Stake-Mine
+```
+### 2.Install dependencies
+```bash
 npm install
+```
+### 3. Start the development server
+```
 npm run dev
+```
