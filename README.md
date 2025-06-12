@@ -16,7 +16,7 @@
 -  Visual mining and progress display
 -  Static asset bundling for deployment
 -  Tailwind-powered responsive design
-- ⚛ Built with React components
+-  Built with React components
 
 ---
 
